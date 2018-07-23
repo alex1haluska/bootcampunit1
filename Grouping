@@ -1,0 +1,26 @@
+-- Question 1
+SELECT
+    MAX(MaxTemperatureF)
+FROM
+    weather
+    
+-- Question 2 
+SELECT
+    Count(trip_id)
+FROM
+    trips
+
+--Question 3
+SELECT
+    min(duration)
+FROM
+    trips
+
+--Question 4
+SELECT
+	end_station,
+    AVG(duration)
+FROM
+    trips
+GROUP by end_station
+ 
