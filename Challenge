@@ -1,0 +1,24 @@
+--- Question 1
+SELECT 
+	*,
+	max(price)
+FROM 
+	listings
+
+--- The most expensive listing is for $9120 in the el Poble Sec neighborhood. It is a private room with a 2 night minimum stay. The host
+-- name is Julien and it has 7 total reviews. 
+
+--- Question 2
+SELECT
+	neighbourhood,
+	COUNT(*) neighbourhoods_count
+FROM 
+	listings
+GROUP by 1
+ORDER by 2 DESC
+
+--The most popular neighborhood seems to be la Dreta de l'Eixample - with a total of 1842 listings in this area, more than 500 more than 
+--the next neighborhood el Raval 
+
+--- Question 3
+---UNABLE TO GET CALENDAR FILE OPEN
