@@ -1,0 +1,85 @@
+--Question 1
+
+With rain AS 
+(
+SELECT 
+	date
+FROM 
+	weather
+WHERE 
+	events = 'Rain'
+
+GROUP by 1
+)
+SELECT 
+	trip_id,
+	start_date
+FROM 
+	trips
+JOIN 
+	rain
+on 
+	rain.date = trips.start_date
+ORDER BY duration DESC
+LIMIT 3
+
+
+--Question 2
+SELECT 
+	status_abbreviated.station_id,
+	stations.name,
+	COUNT(CASE WHEN docks_available= 0 then 1 END) empty_count
+FROM status_abbreviated
+JOIN stations
+on status_abbreviated.station_id = stations.station_id
+GROUP by 1
+ORDER by empty_count DESC
+
+--Question 3
+
+SELECT 
+	start_station,
+	dockcount,
+	COUNT(*)
+FROM 
+	trips
+JOIN 
+	stations
+on stations.name=trips.start_station
+GROUP by 1 , 2
+ORDER by dockcount DESC
+
+
+
+-- Question 4
+WITH rain
+AS ( 
+SELECT 
+	date 
+FROM 
+	weather
+WHERE events = 'Rain'
+GROUP by 1
+),
+
+rain_trips
+AS ( 
+SELECT 
+	trip_id,
+	duration,
+	DATE(start_date) start_date
+FROM
+	trips
+JOIN 
+	rain
+on rain.date = trips.start_date
+ORDER by duration DESC
+)
+
+select 
+start_date,
+max(duration)
+from rain_trips
+Group by 1
+
+--- not returning a table 
