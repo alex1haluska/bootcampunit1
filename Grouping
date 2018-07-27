@@ -7,9 +7,11 @@ FROM
     
 -- Question 2 
 SELECT
-    Count(trip_id)
+	start_station,
+    Count(start_station)
 FROM
     trips
+GROUP by start_station
 
 --Question 3
 SELECT
