@@ -1,0 +1,41 @@
+1)	Does a new supplement help people sleep better ? 
+
+Two Versions: To test out the hypothesis we should have three test groups who we observe sleeping : one group who is observed normally, one with a placebo and one with the new supplement. We would want to introduce a third group to test if the idea of a supplement being given to a person would effect overall sleep patterns. 
+Sample : We would want a large group and to ensure that the group had an equal distribution of male and females, likely between a particular age range with similar medical history to keep all of our test groups as similar as possible. 
+Hypothesis : The new supplement will help people sleep better. 
+Outcome(s): Key metric , good sleep , is difficult to define. Sleeping better should be a weighted combination of hours slept and number of times during the night the person wakes up. So 8 hours of sleep should not be as highly values as 10 if the person woke up three times during the night. 
+Other Measurables : We should look at a next day tiredness variable – user input 
+Changes in other aspects of user health 
+Heart rate of people using the supplement and not using the supplement 
+
+2)	Will new uniforms help a gyms business ? 
+Two Versions : A blue uniform should be given to half of the employees while a red uniform should be given to the other half of the employees. 
+Sample: Experiment should be conducted at the gym in a way where the potential new gym member is identified when coming into the gym and will only deal with employees wearing either the blue or red uniform for the entire duration of there time in the gym. The distribution should be as random as possible – with equal distribution of males and females. 
+Hypothesis : The uniform change will not have an impact on GYM business. 
+Outcomes : The keep metric in this particular instance should be on the spot sign up percentage of new members who come into the gym . It would be difficult to keep a look back on this because the person may come back at a later time to sign up and would now be dealing with a new representative. 
+Other Measurables : Type of gym membership signed up for , time spent discussing with the sales rep, at what point of the sign up process do they back out ( do they really want to sign up but the pricing is not working or do they leave because the gym has no basketball ext) 
+3)	Will a new homepage improve online pet business ? 
+
+Two Versions : When a user enters a website they should be placed on either the existing homepage or a new beta page. Users should be cookies and not be able to reach the other page during the experiment. 
+
+Sample : Should be completely random at the entering of the website – and split evenly to the new and old homepage. 
+
+Hypothesis:  A new homepage layout will have an effect on rentals> 
+
+Outcomes : The key metrics should be the overall number of rentals per page layout / number of users to get an idea of the conversion rate. It should be number of users rather than number of page hits because its very likely a person who may wan to convert does come to the site multiple times as they are shopping around. Given that it is possible to cookie the users I would suggest a look back window of between two weeks to a month. 
+
+Other Measurables : Time spend on page, animals rented, bounce rate , overall spend
+
+4)	If I put please read in my email tiles , will more people read my emails ? 
+
+Two Versions:  Draft the same email to send out , with the slightly varying email titles. 
+
+Sample : It is not explained where this example takes place, but for arguments sake I will assume it is for a business newsletter. If this is the case we want to split our user base as evenly as possible potentially only sending out to users who have a open rate of greater than 10% and lower than 80%. This helps eliminate people who potentially do not check the email or are always on the look out for our newsletter. 
+
+Hypothesis :  The please read will help our email open rates. 
+
+Outcomes: The key factor here is if the email is opened or not. This can be established by the newsletter system we are using- such as mail chimp. 
+
+Other Measurables : Time spent in email, emails placed directly in the trash, how many emails the person has previously opened. 
+
+
